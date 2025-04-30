@@ -135,7 +135,7 @@ async fn main(spawner: Spawner)  {
             }
         }
         sender(&mut spi, &mut nss,&mut ce,&adc_data).await;
-        Timer::after(Duration::from_millis(10)).await;
+        Timer::after(Duration::from_millis(50)).await;
     }
 }
 
