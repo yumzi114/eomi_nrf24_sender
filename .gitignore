@@ -1,4 +1,2 @@
 /target
 Cargo.lock
-./reader.rs
-./sender.rs
